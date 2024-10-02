@@ -1,0 +1,121 @@
+
+nav{
+    /* width: 90%;
+    margin-left: 4%;
+    position: fixed;
+    margin-top: 2%; */
+    backdrop-filter: blur(7px);
+    background: rgba(400, 400, 578, 0.3);
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.349);
+    z-index: 1;
+    position: fixed;
+    width: 94%;
+    top:0;
+    margin-left: 2%;
+}
+
+#navico{
+    width: 100px;
+    height: 40px;
+}
+.navdiv{
+    margin-left: 30%;
+    /* background-color: red; */
+}
+
+.navdiv ul li{
+    margin-left: 45px;
+}
+.navbar{
+    position: sticky;
+    top: 2%;
+}
+
+
+.imginfo{
+    display: flex; 
+margin-left: 5%;
+margin-top: 4%;
+
+}
+
+#imgcart{
+    width: 250px;
+    height: 200px;
+    margin-left: -90px;
+}
+/* .info{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#btn{
+    width: 250px;
+    /* padding: 7px; */
+    padding: 4px 4px 4px 4px;
+    box-shadow: 7px 6px 3px rgba(19, 9, 0, 0.4);
+    border: 1px solid grey;
+
+    width: 250px;
+    padding: 4px 4px 4px 4px;
+    box-shadow: 7px 6px 3px rgba(19, 9, 0, 0.4);
+    border: 1px solid grey;
+    border-radius: 6px;
+    height: 40px;
+    color: white;
+    background-color: grey;
+}
+.cartbody{
+    background-color: #cdc7c759;
+    width: 90%;
+    margin-left: 62px;
+    /* border-radius: 15px; */
+    border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .info h,
+  .info p {
+    font-size: 1rem; /* Adjust base font size */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .info h,
+    .info p {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .info h,
+    .info p {
+      font-size: 0.8rem; /* Adjust font size for even smaller screens */
+    }
+  }
+  

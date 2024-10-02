@@ -1,0 +1,111 @@
+nav{
+    /* width: 90%;
+    margin-left: 4%;
+    position: fixed;
+    margin-top: 2%; */
+    backdrop-filter: blur(7px);
+    background: rgba(400, 400, 578, 0.3);
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* margin-top: 2%; */
+    margin-top: -5%;
+    background-color: rgba(255, 255, 255, 0.349);
+    z-index: 1;
+    position: fixed;
+    width: 94%;
+    top:0;
+    margin-left: 2%;
+}
+
+#navico{
+    width: 100px;
+    height: 40px;
+}
+.navdiv{
+    margin-left: 30%;
+    /* background-color: red; */
+}
+
+.navdiv ul li{
+    margin-left: 45px;
+}
+.navbar{
+    position: sticky;
+    top: 2%;
+}
+
+.add{
+  margin-top: 100px;
+}
+
+  #homeimg{
+
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .card {
+    width: calc(25% - 1rem); /* Adjust for desired number of columns */
+    margin: 1rem;
+  }
+  
+  #most_pop {
+    text-align: center;
+  }
+  
+  .populor_pro {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem;
+  }
+  
+  #imgpro {
+    width: 150px; /* Adjust as needed */
+    margin-right: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 2rem;
+  }
+  
+  .footer .left,
+  .footer .right {
+    width: 100%;
+  }
+  
+  .about {
+    margin-left: 82%;
+    margin-top: -60px;
+    color: white;
+  }
+  
+  #trib {
+    width: 40%;/* Adjust as needed */
+  }
+  
+  .links {
+    text-align: center;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .card {
+      width: calc(50% - 1rem);
+    }
+    /* Add more media queries for different breakpoints */
+  }
+  
